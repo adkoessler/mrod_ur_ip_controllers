@@ -1,0 +1,27 @@
+<library path="lib/libmrod_ur_ip_controllers">
+
+	<class name="campero_ur_ip_controllers/CartesianVelocityControl" type="campero_ur_ip_controllers::CartesianVelocityControl" base_class_type="controller_interface::ControllerBase">
+		<description>
+		  Info...
+		</description>
+	</class> 
+	
+	<class name="campero_ur_ip_controllers/ActiveStiffnessControl" type="campero_ur_ip_controllers::ActiveStiffnessControl" base_class_type="controller_interface::ControllerBase">
+		<description>
+		  Info...
+		</description>
+	</class>
+	
+	<class name="mrod_ur_ip_controllers/VelBasedCartesianVelocityController" type="mrod_ur_ip_controllers::VelBasedCartesianVelocityController" base_class_type="controller_interface::ControllerBase">
+		<description>
+		  Info...
+		</description>
+	</class>
+	
+	<class name="mrod_ur_ip_controllers/VelBasedShapeController" type="mrod_ur_ip_controllers::VelBasedShapeController" base_class_type="controller_interface::ControllerBase">
+		<description>
+		  Info...
+		</description>
+	</class>
+  
+</library>

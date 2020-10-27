@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="tf" type="static_transform_publisher" name="camera_frame_broadcaster" args="0.99798 0.36109 0.04639 -0.0707568, -0.6959912, 0.7084169, 0.0934631 base_link camera_frame 100" />
+  <node pkg="tf" type="static_transform_publisher" name="slave_xy_frame_broadcaster" args="0.0 -0.22 0.0 3.1415 0 1.5707 base_link slave_xy_frame 100" />
+</launch>
