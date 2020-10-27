@@ -25,7 +25,7 @@ Name: "/vel_based_shape_controller/desired_shape"
 
 Type: std_msgs/Float64MultiArray.
 
-#### desired_shape
+#### vision_shape
 The controller subscribes to this topic to get the real node coordinates measured by vision.
 
 Name: "/vel_based_shape_controller/vision_shape"
